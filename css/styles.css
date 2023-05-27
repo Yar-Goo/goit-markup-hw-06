@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', 'Raleway';
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+:root {
+    --title-color:
+    --accent-color:
+    --subtitle-text:
+    --active-links:
+    --white-background:
+    --light-backgrounds:
+}
