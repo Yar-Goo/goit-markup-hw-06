@@ -1,35 +1,29 @@
-:root {
-    --title-color: #2E2F42;
-    
-}
-
 
 body {
-    font-family: 'Roboto', 'sans-serif';
-  
-}
+            font-family: 'Roboto', 'sans-serif';
+            color: #434455;
+            font-size: 16px;
 
-<!--Web--Studio-->
-.logo-webstudio {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #4D5AE5; 
-}
-
-< !--Studio-->
-.logo-studio {
-    color: var(--title-color);
-}
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style-type: none;
-}
-
-
+        }
+    
+    
+        .link {
+            text-decoration: none;
+        }
+    
+        .list {
+            list-style-type: none;
+        }
+    
+        < !--Web--Studio-->.logo-webstudio link {
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+           
+        }
+    
+        < !--Studio-->.logo-studio {
+            color: var(--title-color);
+        }
