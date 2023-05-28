@@ -1,26 +1,35 @@
-body {
-    font-family: 'Roboto', 'Raleway';
-}
-
-.header-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-}
 :root {
-    --title-color:
-    --accent-color:
-    --subtitle-text:
-    --active-links:
-    --white-background:
-    --light-backgrounds:
+    --title-color: #2E2F42;
+    
 }
+
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+  
+}
+
+<!--Web--Studio-->
+.logo-webstudio {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #4D5AE5; 
+}
+
+< !--Studio-->
+.logo-studio {
+    color: var(--title-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
