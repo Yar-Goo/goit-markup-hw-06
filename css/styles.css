@@ -171,21 +171,19 @@ color: #F4F4FD;
 .main-portfolio {
 background: #E5E5E5;
 }
-.portfolio-list {
-    list-style-type: none;
-}
-.portfolio-filter-item {
+.portfolio-filter-button {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04em;
+letter-spacing: 0.04em; 
 color: #4D5AE5;
 background: #F4F4FD;
 cursor: pointer;
 }
-.portfolio-filter-item:hover,
-.portfolio-filter-item:focus {
-color: #FFFFFF;
+ 
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+color: white;
 background: #404BBF;
 }
 .portfolio-subheader {
