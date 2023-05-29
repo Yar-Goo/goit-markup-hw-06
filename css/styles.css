@@ -1,22 +1,15 @@
 :root {
 --slate-body_text-color: #434455;
---white-colol: #FFFFFF;
+--white-color: #FFFFFF;
 --dark-grey-color: #2E2F42;
 --iris-links-color: #4D5AE5;
-
---ocean-presed-color: #404BBF;
-    
-    
-    
-    
-    
-
-}
+--ocean-presed-color: #404BBF;      
+  }
 body {
-font-family: 'Roboto', 'sans-serif';
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 color: var(--slate-body_text-color);
-background: var(--white-colol);
+background: var(--white-color);
 }
 .link {
 text-decoration: none;
@@ -25,23 +18,26 @@ text-decoration: none;
 list-style-type: none;
 }
 .header-logo-webstudio {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris-links-color);
+
+}
+.header-logo-studio {
+font-family: "Raleway";
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--dark-grey-color);
-}
-.header-logo-web {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--iris-links-color);
+ 
 }
 .footer-logo-webstudio {
-font-family: 'Raleway';
+font-family: "Raleway";
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -49,7 +45,7 @@ letter-spacing: 0.03em;
 color: var(--dark-grey-color);
 }
 .footer-logo-web {
-font-family: 'Raleway';
+font-family: "Raleway";
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -67,24 +63,17 @@ color: var(--dark-grey-color);
 .header-list:focus {
 color: var(--ocean-presed-color);
 }
-.address-mail {
+.address {
+font-style: normal;
+}
+.address-link {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate-body_text-color);
 }
-.address-mail:hover,
-.address-mail:focus {
-color: var(--ocean-presed-color);
-}
-.address-tel {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate-body_text-color);
-}
-.address-tel:hover,
-.address-tel:focus {
+.address-link:hover,
+.address-link:focus {
 color: var(--ocean-presed-color);
 }
 .hero {
@@ -95,20 +84,22 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-color: var(--white-colol);
+text-align: center;
+color: var(--white-color);
 }
 .hero-button {
+font-family: "Roboto", sans-serif;
 background: var(--iris-links-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: var(--white-colol);
+color: var(--white-color);
 cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-color: var(--ocean-presed-color);
+background-color:var(--ocean-presed-color);
 }
 .privilages {
 background:#E5E5E5;
@@ -131,6 +122,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 color: var(--dark-grey-color);
 }
 .activities {
@@ -140,15 +133,15 @@ background: #E5E5E5;
 background: #F4F4FD;
 }
 .team-item {
-background: var(--white-colol);
+background: var(--white-color);
 }
 .team-subheader {
-background: var(--white-colol);
+background: var(--white-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--dark-grey-color);
+color: var(--dark-grey-color);  
 }
 .team-text {
 font-size: 16px;
@@ -160,21 +153,21 @@ color: var(--slate-body_text-color);
 background: var(--dark-grey-color);
 }
 .footer-logo-webstudio {
-font-family: 'Raleway';
+font-family: "Raleway",sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--iris-links-color);
 }
-.footer-logo-web {
+.footer-logo-studio {
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: var(--iris-links-color);
+color:var(--dark-grey-color);
 }
 .footer-text {
 font-size: 16px;
@@ -186,6 +179,7 @@ color: #F4F4FD;
 background: #E5E5E5;
 }
 .portfolio-filter-button {
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -197,7 +191,7 @@ cursor: pointer;
  
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
-color: var(--white-colol);
+color: var(--white-color);
 background: var(--ocean-presed-color);
 }
 .portfolio-subheader {
