@@ -33,31 +33,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #f4f4fd;
- 
-}
-.footer-logo-webstudio {
-font-family: "Raleway";
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--dark-grey-color);
-}   
-.footer-logo-web {
-font-family: "Raleway";
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--iris-links-color);
-}
-.header-list {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--dark-grey-color);
+color:var(--dark-grey-color); 
 }
 .header-list:hover,
 .header-list:focus {
@@ -167,7 +143,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color:var(--dark-grey-color);
+color: #f4f4fd;
 }
 .footer-text {
 font-size: 16px;
