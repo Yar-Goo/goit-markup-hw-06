@@ -33,7 +33,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: var(--dark-grey-color);
+color: #f4f4fd;
  
 }
 .footer-logo-webstudio {
@@ -43,7 +43,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--dark-grey-color);
-}
+}   
 .footer-logo-web {
 font-family: "Raleway";
 font-weight: 800;
