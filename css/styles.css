@@ -113,8 +113,17 @@ color: var(--slate-body_text-color);
 color: var(--ocean-presed-color);
 }
 .hero {
-background: var(--dark-grey-color);
+background-color: var(--dark-grey-color);
+padding: 188px 0px;
 }
+
+.hero-container {
+
+padding: 0px 316px;
+display: flex;
+flex-direction: column;
+}
+
 .hero-header {
 font-weight: 700;
 font-size: 56px;
@@ -122,6 +131,11 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white-color);
+max-width: 496px;
+padding-bottom: 48px;
+margin-left: auto;
+margin-right: auto;
+
 }
 .hero-button {
 font-family: "Roboto", sans-serif;
@@ -132,6 +146,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--white-color);
 cursor: pointer;
+display: block;
+align-self: center;
+padding: 16px 32px;
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
