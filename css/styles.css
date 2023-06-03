@@ -266,7 +266,9 @@ text-align: center;
 }
 .footer {
 background: var(--dark-grey-color);
+padding: 100px 0;
 }
+
 .footer-logo-webstudio {
 font-family: "Raleway",sans-serif;
 font-weight: 800;
@@ -275,6 +277,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris-links-color);
+margin-bottom: 16px;
+display: inline-block;
 }
 .footer-logo-studio {
 font-family: 'Raleway';
@@ -289,6 +293,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264px;
 }
 .main-portfolio {
 background: #E5E5E5;
