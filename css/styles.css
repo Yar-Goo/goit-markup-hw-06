@@ -46,7 +46,6 @@ text-decoration: none;
 list-style-type: none;
 }
 .header {
-padding: 24px 0;
 border-bottom: 1px solid var(--accent-color);
 }
 
