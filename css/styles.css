@@ -46,13 +46,14 @@ text-decoration: none;
 list-style-type: none;
 }
 .header {
-padding: 24px 0 24px;
+padding: 24px 0;
 border-bottom: 1px solid var(--accent-color);
 }
 
 .address-list {
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 .header-navigation {
 display: flex;
