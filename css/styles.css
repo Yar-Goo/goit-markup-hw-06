@@ -366,17 +366,20 @@ padding-left: 16px;
 .portfolio-li:nth-child(3) {
   margin-right: 0;
 }
+
 .portfolio-li:nth-child(6) {
   margin-right: 0;
 }
-.category-item:nth-child(9) {
+
+.portfolio-li:nth-child(9) {
+  margin-right: 0;
   margin-bottom: 0;
 }
 
-.category-item:nth-child(8) {
+.portfolio-li:nth-child(8) {
   margin-bottom: 0;
 }
 
-.category-item:nth-child(7) {
+.portfolio-li:nth-child(7) {
   margin-bottom: 0;
 }
