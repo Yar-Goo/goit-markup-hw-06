@@ -47,12 +47,12 @@ list-style-type: none;
 }
 .header {
 border-bottom: 1px solid var(--accent-color);
+padding: 24px 0 24px 0;
 }
 
 .address-list {
 display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 .header-navigation {
 display: flex;
