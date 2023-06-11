@@ -320,7 +320,7 @@ fill: var(--white-2-color) ;
 }
 .item-team:hover .item-round,
 .item-team:focus .item-round {
-background-color: #404bbf var(--ocean-presed-color);
+background-color:var(--ocean-presed-color);
 }
 .team-hplusp {
 padding: 32px 0px;
