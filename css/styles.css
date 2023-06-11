@@ -4,7 +4,8 @@
 --dark-grey-color: #2E2F42;
 --iris-links-color: #4D5AE5;
 --ocean-presed-color: #404BBF;
---accent-color:#e7e9fc;      
+--accent-color:#e7e9fc;
+--white-2-color: #f4f4fd;
   }
 body {
 font-family: "Roboto", sans-serif;
@@ -219,6 +220,15 @@ gap: 24px;
 .privilages-item {
 width: 264px
 }
+.icon-skills {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px;
+background: var(--white-2-color);
+border-radius: 4px;
+margin-bottom: 8px;
+}
 .privilages-subheader {
 font-weight: 500;
 font-size: 20px;
@@ -258,7 +268,7 @@ gap: 24px;
 width: 360px;
 }
 .team {
-background: #F4F4FD;
+background: var(--white-2-color);
 padding: 120px 0px;
 }
 
@@ -306,14 +316,14 @@ border-radius: 50%;
 position: relative;
 }
 .icon-socialmedia {
-fill: #f4f4fd ;
+fill: var(--white-2-color) ;
 }
 .item-team:hover .item-round,
 .item-team:focus .item-round {
-background: #404bbf var(--ocean-presed-color);
+background-color: #404bbf var(--ocean-presed-color);
 }
 .team-hplusp {
-padding: 32px 16px;
+padding: 32px 0px;
 text-align: center;
 }
 .logoweb-studio {
@@ -347,7 +357,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--color_two);
+color: var(--dark-grey-color);
 margin-bottom: 72px;
 }
 
@@ -397,6 +407,8 @@ margin-right: 120px;
 font-weight: 500;
 color: var(--white-color);
 margin-bottom: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .itemround-footer {
 width: 40px;
@@ -446,14 +458,18 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #f4f4fd;
+color: var(--white-2-color);
 }
 .footer-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--white-2-color);
 max-width: 264px;
+  
+}
+.icon-footer {
+fill: var(--white-2-color);
 }
 /*-------------------main-portfolio---------------*/
 .main-portfolio {
@@ -480,7 +496,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em; 
 color: var(--iris-links-color);
-background: #F4F4FD;
+background: var(--white-2-color);
 cursor: pointer;
 padding: 12px 24px;
 border: 1px solid var(--accent-color);
@@ -527,20 +543,28 @@ padding: 40px 32px;
 position: absolute;
 width: 360px;
 height: 300px;
-color: var(--color_white_two);
-background-color: var(--color_blue);
+color: var(--white-2-color);
+background-color: var(--iris-links-color);
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .link-projects {
 display: block;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.link-projects:hover,
+.link-projects:focus {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .link-projects:hover .text-overlay,
 .link-projects:focus .text-overlay {
-  transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+transform: translateY(0%);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .htoop {
 border: 1px solid #e7e9fc;
@@ -640,7 +664,7 @@ color: #2e2f42;
 .close-window:hover,
 .close-window:focus {
 color: #ffffff;
-background-color: var(--color-accent);
+background-color: var(--ocean-presed-color);
 border: none;
 }
 
