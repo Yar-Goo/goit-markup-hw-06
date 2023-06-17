@@ -421,6 +421,7 @@ position: relative;
 display: flex;
 gap: 16px;
 justify-content: center;
+margin-right: 80px;
 }
 .logoweb-footer {
 display: flex;
@@ -471,6 +472,60 @@ max-width: 264px;
 .icon-footer {
 fill: var(--white-2-color);
 }
+.form-subscribe {
+display: flex;
+gap: 24px;
+}
+.input-subscribe {
+min-width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+border-radius: 4px;
+background-color: transparent;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+padding-left: 16px;
+align-items: center;
+color: #FFFFFF;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+.input-subscribe::placeholder {
+color: #FFFFFF;
+}
+
+.button-subscribe {
+min-width: 165px;
+height: 40px; 
+padding: 8px 24px;
+gap: 16px;
+font-weight: 500;
+font-size: 16px;  
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+background-color: #4d5ae5;
+border-radius: 4px;
+color: #FFFFFF;
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+background-color: var(--ocean-presed-color);
+}
+
+.subscribe-icon {
+width: 24px;
+height: 24px;
+
+fill: #ffffff ;
+}
+
+
 /*-------------------main-portfolio---------------*/
 .main-portfolio {
 background: #E5E5E5;
