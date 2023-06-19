@@ -913,7 +913,13 @@ border-radius: 2px;
 fill: #f4f4fd;
 border: none;
 }
-
+.checkbox-icon {
+display: inline-block;
+width: 10px;
+height: 8px;
+border-radius: 2px;
+fill: #fcfcfc;
+}   
 .modal-btn {
 display: block;
 padding: 16px 32px;
