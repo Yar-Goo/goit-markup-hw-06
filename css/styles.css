@@ -884,8 +884,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
-display: inline-flex;
-align-items: center;
+
 }
 .checkbox-label a {
 color: #4D5AE5; 
