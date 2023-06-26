@@ -7,7 +7,7 @@
     --accent-color: #e7e9fc;
     --white-2-color: #f4f4fd;
 }
- < !-------------section-2------------->
+ <!-------------section-2------------->
  
 @media screen and (min-width: 428px) {
     .container {
@@ -19,7 +19,7 @@
         max-width: 736px;
     }
     .privilages {
-       padding: 96px;
+       padding: 96px 0;
     }
     .privilages-list {
         display: flex;
@@ -38,8 +38,9 @@
         max-width: 1138px;
        
             }
-    .privilages {
+    .privilages. {
        /* padding: 120px;*/
+   
 
             }
     .icon-skills {
@@ -60,7 +61,7 @@
         flex-wrap: nowrap;
         }
     .privilages-item {
-         width: 264px
+         width: 264px;
                 }
         
     }
