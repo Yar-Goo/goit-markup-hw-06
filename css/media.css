@@ -33,6 +33,13 @@
        width: calc((100% - 24px) / 2);
        height: 120px;
     }
+    .team-list {
+        display: flex;        
+        gap: 64px 24px;}
+
+    .team-item {
+       width: calc((100% - 24px) / 2);
+    }
     
 }
 
@@ -63,5 +70,15 @@
     .privilages-item {
          width: 264px;
                 }
-        
+    .team {
+        padding: 120px 0px;
+               }
+    .team-list {
+        display: flex;
+        gap: 24px;
+        }
+                
+    .team-item {
+        width: calc((100% - 72px) / 4);
+        }
     }
