@@ -242,7 +242,6 @@ img {
   flex-wrap: wrap;
   /*flex-direction: column;
   align-items: center;*/
-
   gap: 72px;
 }
 
@@ -276,6 +275,9 @@ img {
   color: var(--slate-body_text-color);
 }
 
+
+/*-------------section-3------------*/
+
 .main-header {
   font-weight: 700;
   font-size: 36px;
@@ -290,7 +292,6 @@ img {
   margin-bottom: 72px;
 }
 
-/*-------------section-3------------*/
 .activities {
   background-color: #E5E5E5;
   padding-bottom: 120px;

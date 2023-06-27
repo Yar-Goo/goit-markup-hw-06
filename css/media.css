@@ -9,12 +9,14 @@
 }
  <!-------------section-2------------->
  
-@media screen and (min-width: 428px) {
+   @media screen and (min-width: 428px) {
     .container {
         max-width: 396px;
-    }
+    } 
+        
 }
-@media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
     }
@@ -27,6 +29,7 @@
         
     }
     .privilages-item {
+       max-width: unset;
        width: calc((100% - 24px) / 2);
        height: 120px;
     }
@@ -35,14 +38,11 @@
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1138px;
-       
+        max-width: 1138px;       
             }
-    .privilages. {
-       /* padding: 120px;*/
-   
-
-            }
+    .privilages {
+       padding: 120px 0;
+                }
     .icon-skills {
         display: flex;
         align-items: center;
