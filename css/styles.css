@@ -278,6 +278,7 @@ img {
 
 /*-------------section-3------------*/
 
+
 .main-header {
   font-weight: 700;
   font-size: 36px;
@@ -306,25 +307,32 @@ img {
   width: 360px;
 }
 
+/*-------------section-4------------*/
+
 .team {
   background: var(--white-2-color);
-  padding: 120px 0px;
-}
-
-.main-header.team {
-  margin-bottom: 72px;
+  padding: 96px 0px;
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;   
+  gap: 20px;
+  /*gap: 24px; desktop*/
 }
 
 .team-item {
+  width: 100%;
   background: var(--white-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
+}
+
+.main-header.team {
+  padding-bottom: 0;
+  margin-bottom: 72px;
 }
 
 .team-subheader {
@@ -349,8 +357,11 @@ img {
 
 .block-round {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .item-round {
