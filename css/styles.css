@@ -163,9 +163,8 @@ img {
 .hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
-  height: 600px;
-  max-width: 1440px;
-  padding: 188px 0px;
+  height: 432px;
+  max-width: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -174,20 +173,20 @@ img {
 
 .hero-container {
 
-  padding: 0px 316px;
+  padding: 112px 0px;
   display: flex;
   flex-direction: column;
 }
 
 .hero-header {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
-  max-width: 496px;
-  padding-bottom: 48px;
+  max-width: 100%;
+  padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
 
