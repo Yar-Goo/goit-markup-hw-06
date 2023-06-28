@@ -34,6 +34,10 @@
        width: calc((100% - 24px) / 2);
        height: 120px;
     }
+    .privilages-subheader {
+       text-align: start;
+    }
+
     /*-------------section-4------------*/
     .team-list {
         display: flex;        
@@ -62,6 +66,7 @@
  /*-------------section-2------------*/
     .privilages {
        padding: 120px 0;
+       background-color: var(--white-color);
     }
     .icon-skills {
         display: flex;
@@ -80,9 +85,50 @@
         gap: 24px;
         flex-wrap: nowrap;
     }
+    .privilages-subheader{       
+     text-align: start;
+     font-size: 20px;
+     font-family: Roboto;
+     font-weight: 500;
+     line-height: 1.2;
+    }
     .privilages-item {
          width: 264px;
     }
+
+/*-------------section-3------------*/
+
+.activities {
+    background-color:var(--white-color);
+    padding: 120px 0;
+    display: flex;
+}
+.main-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--dark-grey-color);
+    justify-content: center;
+}
+
+.main-header.activities {
+    padding: 0;
+    margin-bottom: 72px;
+}
+
+.activities-list {
+    display: flex;
+    gap: 24px;
+}
+
+.activities-item {
+    width: calc((100% - 48px) / 3);
+}
+
+
  /*-------------section-4------------*/
     .team {
         padding: 120px 0px;
