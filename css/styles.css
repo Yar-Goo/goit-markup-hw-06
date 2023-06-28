@@ -162,13 +162,21 @@ img {
 /*-----------section-1-----------*/
 .hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
   height: 432px;
   max-width: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx) {
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-mob-2x.jpg);
+}
 }
 
 .hero-container {
@@ -185,7 +193,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
-  max-width: 100%;
+  max-width: 320px;
   padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -266,8 +274,7 @@ img {
   color: var(--dark-grey-color);
   margin-bottom: 8px;
   margin: 0 auto;
-  text-align: center;
-  letter-spacing: 0.72px;
+  text-align: center;  
 }
 
 .privilages-text {
