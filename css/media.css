@@ -123,6 +123,22 @@
     .privilages-subheader {
        text-align: start;
     }
+        /*-------------section-2-tablet-modal-window-------------*/
+    .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+}
+
+.close-window {
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+
+
 
     /*-------------section-4-tablet------------*/
     .team-list {
@@ -339,6 +355,22 @@
     }
     .privilages-item {
          width: 264px;
+    }
+
+/*-------------section-2-desktop-modal-window-------------*/
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+}
+
+.close-window {
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
     }
 
 /*-------------section-3-desktop-----------*/
