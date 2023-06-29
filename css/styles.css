@@ -99,6 +99,13 @@ img {
   color: var(--dark-grey-color);
 }
 
+.open-menu-btn {
+height: 22px;
+border:none;
+background-color: #FFFFFF;
+
+}
+
 .header-list {
   display: none;
 }
