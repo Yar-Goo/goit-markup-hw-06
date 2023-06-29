@@ -21,6 +21,69 @@
     .container {
         max-width: 736px;
     }
+/*-------------header-tablet-----------*/
+.header-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-grey-color);
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list:hover,
+.header-list:focus {
+    color: var(--ocean-presed-color);
+}
+
+.active {
+    position: relative;
+    color: var(--ocean-presed-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list .header-list.active::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: var(--ocean-presed-color);
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+}
+
+.address {
+    font-style: normal;
+    gap: 40px;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
+    padding: 24px 0;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-body_text-color);
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--ocean-presed-color);
+}
+
  /*-------------section-1-tablet-----------*/
    .hero {
     height: 436px;
@@ -86,6 +149,110 @@
     .container {
         max-width: 1138px;       
     }
+/*------------header-desktop-----------*/
+/*.header {
+    border-bottom: 1px solid var(--accent-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
+    padding: 24px 0;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-webstudio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-links-color);
+    margin-right: 76px;
+    padding: 24px 0;
+}
+
+.header-logo-studio {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--dark-grey-color);
+}
+
+.header-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-grey-color);
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list:hover,
+.header-list:focus {
+    color: var(--ocean-presed-color);
+}
+
+.active {
+    position: relative;
+    color: var(--ocean-presed-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list .header-list.active::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: var(--ocean-presed-color);
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+}
+
+.address {
+    font-style: normal;
+    gap: 40px;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-body_text-color);
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--ocean-presed-color);
+}*/
+
 /*-------------section-1-desktop-----------*/
     .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
