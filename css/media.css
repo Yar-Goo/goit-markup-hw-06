@@ -124,7 +124,7 @@
        text-align: start;
     }
         /*-------------section-2-tablet-modal-window-------------*/
-    .modal {
+.modal {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
@@ -267,14 +267,14 @@
 .address-link:hover,
 .address-link:focus {
     color: var(--ocean-presed-color);
-}*/
+}
 
 /*-------------section-1-desktop-----------*/
     .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office-deskt.jpg);
     height: 600px;
-    padding: 188px 0px;           
+    padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-deskt.jpg);              
         }
 
      @media (min-device-pixel-ratio:2),
@@ -284,11 +284,9 @@
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-deskt-2x.jpg);
             }
-        }
-
-        .hero-container {    
-            padding: 0px 316px;            
-        }
+        
+        }       
+        
     
         .hero-header {
             font-size: 56px;
