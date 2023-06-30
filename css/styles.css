@@ -386,6 +386,7 @@ margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-body_text-color);
+  margin-bottom: 8px;
 }
 
 .block-round {
@@ -458,14 +459,13 @@ margin: 0 auto;
 .list-customers {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 72px 16px;
 }
 
 .item-customers {
-  /*width: calc((100% - 5 * 24px) / 6);
-  height: 88px;*/
-  width: calc((100% - 16px) / 2)
-  
+  /*width: calc((100% - 5 * 24px) / 6);*/
+  width: calc((100% - 16px) / 2);
+  height: 88px;
 }
 
 .link-customers {
@@ -506,6 +506,7 @@ margin: 0 auto;
 
 .info-footer {
   text-align: center;
+ 
 }
 .text-social {
   font-weight: 500;
