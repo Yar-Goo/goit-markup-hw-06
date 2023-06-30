@@ -65,19 +65,16 @@
     font-style: normal;
     margin-left: 0;    
 }
+ @media screen and (min-width: 768px) and (max-width: 1157px) {
 .address-list {
     display: flex;
     flex-direction: column; 
     padding: 16px 0;
-    justify-content: space-between;
-      
+    justify-content: space-between;      
 }
 .address-link:not(:last-child) {
     margin-bottom: 12px;
-
 }
-
-
 .address-link {
     display: flex;
     width: 119px;
@@ -91,7 +88,7 @@
 
     
 }
-
+}
 .address-link:hover,
 .address-link:focus {
     color: var(--ocean-presed-color);
@@ -190,26 +187,9 @@
 
 }
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     height: 72px;
     }
 
-.header-navigation {
-    display: flex;
-    align-items: center;
-
-}
-
-.header-logo-studio {
-    font-family: "Raleway";
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--dark-grey-color);
-}
 .active {
     position: relative;
     color: var(--ocean-presed-color);
@@ -235,9 +215,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-grey-color);    
-    gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 24px 0;
+   
 }
 
 .header-list:hover,
@@ -245,32 +224,24 @@
     color: var(--ocean-presed-color);
 }
 .address {
-    font-style: normal;
-    
+   font-style: normal;         
     }
 
-.address-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.address-list {  
+   display: flex; 
+}
+
+.address-link.link {
+    display:flex;   
+    text-align: center;
     justify-content: center;
-      
-}
-
-.address-link {
-    padding: 24px 0;
-}
-
-
-.address-link {
-    display: flex;
-    width: 153px;
-    height: 24px;
+    margin-left: 40px;   
+    color:  #434455; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-body_text-color);
-       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
 .address-link:hover,
