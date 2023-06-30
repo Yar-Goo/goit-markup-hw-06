@@ -173,7 +173,16 @@
       height: 88px;*/
        width: calc((100% - 48px) / 3)
     }
+ /*-------------footer-tablet-modal--------------*/
+@media screen and (min-width: 768px) and (max-width: 1157px){
+
+    
 }
+    
+}
+
+
+
 /*-------------desktop-----------*/
      @media screen and (min-width: 1158px) {
     .container {

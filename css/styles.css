@@ -597,8 +597,9 @@ text-align: center;
 }
 
 .input-subscribe {
-  width: 398px;
-  max-width: 398px;
+  width: 100%;
+  min-width: 288px;
+  margin: 0 auto;
   height: 40px;
   border: 1px solid #ffffff;
   border-radius: 4px;
