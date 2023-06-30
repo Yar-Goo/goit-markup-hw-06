@@ -411,7 +411,7 @@
       height: 88px;
             
     }
-    }
+    
 /*--------footer-desktop-------*/
 .footer {
     background: var(--dark-grey-color);
@@ -420,7 +420,7 @@
 
 .footer-container {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 
 .info-footer {
@@ -557,4 +557,5 @@
 .subscribe-icon {
     fill: #ffffff;
     margin-left: 16px;
+}
 }
