@@ -337,7 +337,9 @@ margin-bottom: 40px;
 }
 
 /*-------------section-4------------*/
-
+.container.team-container{
+  max-width: 296px;
+}
 .team {
   background: var(--white-2-color);
   padding: 96px 0px;

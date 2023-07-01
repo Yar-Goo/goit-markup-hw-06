@@ -152,9 +152,11 @@
     padding: 0;
 }
 
-
-
     /*-------------section-4-tablet------------*/
+.container.team-container {
+    max-width: 584px;
+}
+
     .team-list {
         display: flex;        
         gap: 64px 24px;}
@@ -173,6 +175,10 @@
        width: calc((100% - 48px) / 3);
        height: 88px;
     }
+/*-------------section-5-tablet------------*/
+       .container.sectionfive{
+      max-width: 584px;
+       }
  /*-------------footer-tablet-modal--------------*/
 @media screen and (min-width: 768px) and (max-width: 1158px){
 
@@ -182,6 +188,7 @@
         }
     
         .footer-container {
+            max-width: 584px;
             display: flex;
             flex-wrap: wrap;
             justify-content: left;
@@ -428,10 +435,8 @@
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-deskt-2x.jpg);
-            }
-        
-        }       
-        
+            }        
+        }           
     
         .hero-header {
             font-size: 56px;
@@ -497,9 +502,11 @@
      line-height: 1.2;
     }
     .privilages-item {
-         width: 264px;
+     width: 264px;
     }
-
+    .privilages-text {
+      font-weight: 400;  
+    }
 /*-------------section-2-desktop-modal-window-------------*/
 
 .modal {
@@ -548,8 +555,10 @@
     width: calc((100% - 48px) / 3);
 }
 
-
  /*-------------section-4-desktop-----------*/
+ .container.team-container {
+    max-width: 1128px;
+ }
     .team {
         padding: 120px 0px;
     }
@@ -563,6 +572,9 @@
     }
 
  /*---------section-5-desktop------*/
+ .container.sectionfive {
+    max-width: 1128px;
+ }
     .sectionfive-studio {
         padding: 120px 0;
     }
@@ -662,7 +674,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-2-color);
-    max-width: 264px;
+    width: 264px;
 
 }
 
