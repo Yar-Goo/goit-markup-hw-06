@@ -1,13 +1,3 @@
-:root {
-    --slate-body_text-color: #434455;
-    --white-color: #FFFFFF;
-    --dark-grey-color: #2E2F42;
-    --iris-links-color: #4D5AE5;
-    --ocean-presed-color: #404BBF;
-    --accent-color: #e7e9fc;
-    --white-2-color: #f4f4fd;
-}
- 
  /*-------------mobile-----------*/
  /*-------------section-2-mobile-----------*/
     @media screen and (min-width: 428px) {
@@ -100,7 +90,6 @@
 
  /*-------------section-1-tablet-----------*/
    .hero {
-    height: 436px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office-tab.jpg);
     }
@@ -124,15 +113,13 @@
     .privilages {
        padding: 96px 0;
     }
-    .privilages-list {
-        display: flex;
+    .privilages-list {        
         gap: 72px 24px;
         
     }
     .privilages-item {
        max-width: unset;
-       width: calc((100% - 24px) / 2);
-       height: 120px;
+       width: calc((100% - 24px) / 2);       
     }
     .privilages-subheader {
        text-align: start;
@@ -140,7 +127,6 @@
         /*-------------section-2-tablet-modal-window-------------*/
 .modal {
     width: 408px;
-    min-height: 584px;
     padding: 72px 24px 24px 24px;
 }
 
@@ -423,7 +409,8 @@
 
 /*-------------section-1-desktop-----------*/
     .hero {
-    height: 600px;
+    max-width: 1440px;    
+    margin: 0 auto;
     padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office-deskt.jpg);              
